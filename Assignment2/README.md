@@ -11,3 +11,4 @@
 | Change num of items	| Eqvivalence		|
 | Finalize order	| State transition	|
 | Log out		| State transition	|
+
