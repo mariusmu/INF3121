@@ -2,13 +2,13 @@
 
 # Test-techniques
 
-| Subject		| Technique		|
-| --------------------- | --------------------- |
-| Sign in		| Descision table	|
-| Select products	| State/tansition	|
-| Continue shopping	| Merged with above	|
-| Change num of items	| Merged with above	|
-| Checkout		| Error guessing	|
-| Finalize order	| State transition	|
-| Log out		| State transition	|
+| Subject		| Technique		| Assigned |
+| --------------------- | --------------------- | --------------------- |
+| Sign in		| Descision table	| Jostein |
+| Select products	| State/tansition	| Marius |
+| Continue shopping	| Merged with above	| Marius |
+| Change num of items	| Merged with above	| Marius |
+| Checkout		| Error guessing	| Jostein |
+| Finalize order	| State transition	| Jostein |
+| Log out		| State transition	| Marius |
 
