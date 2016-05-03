@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demo.avactis.com/4.7.9/index.php" />
+<title>Log out</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Log out</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/cart.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Sign Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span</td>
+	<td>Welcome,Marius&nbsp;&nbsp;&nbsp;Sign Out</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=My Account</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.content-page</td>
+	<td>Manage Account and View Orders You can review and modify your account options below.<br /> ORDERS<br /> ACCOUNT SETTINGS<br /> <br /> New Orders 0 In Progress 0 Ready to Ship 0 All 0 <br /> <br /> From: 12345678910111213141516171819202122232425262728293031<br /> JanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecember<br /> 200820092010201120122013201420152016<br /> <br /> <br /> To: 12345678910111213141516171819202122232425262728293031<br /> JanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecember<br /> 200820092010201120122013201420152016<br /> <br /> <br /> Orders: AnyNew OrderIn ProgressReady To ShipShippedCancelledDeclinedCompleted<br /> <br /> <br /> Payments: AnyWaitingFully PaidDeclinedSuspicious<br /> <br /> <br /> <br /> <br /> <br /> Order ID: <br /> <br /> <br /> <br /> <br /> Manage Personal Info Change Password Wishlist Manage Subscriptions <br /> <br /> Filter: no orders found.<br /> Order ID Invoice Order Date Amount Tax Order Status Payment Status No Orders found.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Sign In</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/sign-in.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//input[@value='Sign In']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

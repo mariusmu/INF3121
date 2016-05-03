@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demo.avactis.com/4.7.9/index.php" />
+<title>Correct_Delete_A</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Correct_Delete_A</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/cart.php?timestamp=1462186154</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=td.goods-page-price &gt; strong</td>
+	<td>$1,799.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=td.goods-page-total &gt; strong</td>
+	<td>$16,191.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=strong.shopping-total-price.price</td>
+	<td>$16,690.99</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=td.del-goods-col &gt; a.del-goods</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=strong.shopping-total-price.price</td>
+	<td>$499.99</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
